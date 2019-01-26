@@ -7,3 +7,4 @@ sudo cp loginpage.crt /var/www/ssl/loginpage.crt;
 sudo cp roguish /etc/nginx/sites-available/roguish;
 sudo ln -s /etc/nginx/sites-available/roguish /etc/nginx/sites-enabled/;
 sudo service nginx restart;
+sudo cp login.php /var/www/html/login.php;
