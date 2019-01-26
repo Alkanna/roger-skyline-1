@@ -10,7 +10,7 @@ server {
         ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
 
         root /var/www/html/;
-        login.php;
+        index login.php;
 
         location / {
                 try_files $uri $uri/ =404;
